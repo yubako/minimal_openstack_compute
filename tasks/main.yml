@@ -1,0 +1,4 @@
+
+- include_tasks: nova.yml
+
+- include_tasks: neutron.yml

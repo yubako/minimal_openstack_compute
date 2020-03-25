@@ -1,0 +1,9 @@
+---
+- hosts: compute
+  remote_user: ansible
+  become: yes
+  vars:
+    minimal_openstack_controller_management_ip: 192.168.2.114
+    minimal_openstack_compute_management_ip: 192.168.2.116
+  roles:
+    - ../../
